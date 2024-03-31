@@ -63,9 +63,9 @@ const generateAccessToken = (req, resp) => {
 app.get('/access_token', nocashe, generateAccessToken);
 
 app.listen(PORT, () => {
-   // console.log('Listening on port: ${PORT}');
-   // console.log('Listening on port:'+PORT);
-   console.log('ayman ahmed ');
+   console.log('Listening on port: ${PORT}');
+   console.log('Listening on port:'+PORT);
+   // console.log('ayman ahmed ');
  
 });
  
